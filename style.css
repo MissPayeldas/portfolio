@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #0a0101;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header img.profile-img {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+nav {
+    text-align: center;
+    background: #ed75af;
+    padding: 10px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #4CAF50;
+}
+
+.hero {
+    position: relative;
+    background-image: url('images/home2.png');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume-container {
+    background: rgba(117, 117, 117, 0.236); /* Semi-transparent white box */
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-align: center;
+    width: 400px;
+    height: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.resume-container h1 {
+    color: #fffefe;
+    margin-bottom: 15px;
+}
+
+.resume-container p {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.resume-btn {
+    text-decoration: none;
+    background: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.resume-btn:hover {
+    background: #45a049;
+}
