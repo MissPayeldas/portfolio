@@ -23,7 +23,7 @@ header img.profile-img {
 nav {
     text-align: center;
     background: #ed75af;
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 nav a {
@@ -55,16 +55,16 @@ nav a:hover {
     border-radius: 10px;
     text-align: center;
     width: 400px;
-    height: 300px;
+    height: 500px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .resume-container h1 {
-    color: #fffefe;
+    color: #000000;
     margin-bottom: 15px;
 }
 
-.resume-container p {
+.resume-container h2 {
     color: #ffffff;
     margin-bottom: 20px;
 }
@@ -80,5 +80,12 @@ nav a:hover {
 }
 
 .resume-btn:hover {
-    background: #45a049;
+    background: #3ac241;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
 }
